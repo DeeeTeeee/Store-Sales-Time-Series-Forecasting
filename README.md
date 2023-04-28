@@ -1,10 +1,10 @@
 **Regression Project (Store Sales -- Time Series Forecasting)**
 
-This is a time series forecasting problem. In this project, you'll
+This is a time series forecasting problem. In this project, I
 predict store sales on data from Corporation Favorita, a large
 Ecuadorian-based grocery retailer.
 
-Specifically, you are to **build a model** that more accurately predicts
+Specifically, I **build a model** that more accurately predicts
 the unit sales for thousands of items sold at different Favorita stores.
 
 The training data includes dates, store, and product information,
@@ -16,8 +16,7 @@ building your models
 
 train.csv
 
--   The training data, comprising time series of features store_nbr, family, 
-    and onpromotion as well as the target sales.
+-   The training data, comprising time series of features store_nbr, family, and onpromotion as well as the target sales.
 
 -   **store_nbr** identifies the store at which the products are sold.
 
@@ -89,12 +88,11 @@ holidays_events.csv
     products which greatly affected supermarket sales for several
     weeks after the earthquake.
 
-**Data Preparation**
+
 
 **Hypothesis & Questions**
 
-The questions below are to be answered. Do note that, you are free to
-draw more hypothesis from the data.
+
 
 1.  Is the train dataset complete (has all the required dates)?
 
@@ -107,52 +105,10 @@ draw more hypothesis from the data.
 
 5.  Are sales affected by promotions, oil prices and holidays?
 
-6.  What analysis can we get from the date and its extractable features?
 
-7.  What is the difference between RMSLE, RMSE, MSE (or why is the MAE
-    greater than all of them?)
 
-Your task is to **build a model** that more accurately predicts the unit
+My task is to **build a model** that more accurately predicts the unit
 sales for thousands of items.
 
-**Important**
 
--   Document process from data cleaning, analysis, assumptions, model
-    building etc. Marks will be awarded for documentation.
 
-**Rubric**
-
-**Documentation**:
-
--   Excellent: Having documentation on the project ie data cleaning,
-    analysis, hypothesis and model.
-
--   Good: Gave a summary on some of the processes
-
--   Fair: Gave a bullet list of the processes with short sentences
-
--   Poor: No documentation
-
-**Hypothesis Analysis &Visualization:**
-
--   Excellent: Validated the hypothesis and answered all questions
-    listed earlier with appropriate charts. Used relevant diagrams and
-    charts to show analysis/metrics.
-
--   Good: Validated at least 4 hypothesis and answered some of the
-    questions listed with appropriate charts. Used relevant diagrams but
-    might need some improvement and.
-
--   Fair: Lack of clarity on whether the hypothesis was true.
-
--   Poor: Not answered any of the hypothesis
-
-**Model Building:**
-
--   Excellent: Model has an RMSLE of 0.2
-
--   Good: Model has RMSLE of 0.3
-
--   Fair: Model has RMSLE of 0.4
-
--   Poor: Model has RMSLE of 0.4 +
